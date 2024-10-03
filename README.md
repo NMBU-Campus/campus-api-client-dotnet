@@ -12,12 +12,15 @@ This is a public SDK for interacting with the Campus API. It allows you to easil
 ## Table of Contents
 
 - [Installation](#installation)
+- [Configuration](#configuration)
 - [Usage](#usage)
   - [Authentication](#authentication)
   - [Fetching Observations](#fetching-observations)
-- [Environment Variables](#environment-variables)
+- [Running from Command Line](#running-from-command-line)
+  - [Expected Output](#expected-output)
 - [Running from Command Line](#running-from-command-line)
 - [Error Handling](#error-handling)
+- [License](#license)
 
 ## Installation
 
@@ -52,9 +55,9 @@ your own credentials, and SensorId.
 ## Usage
 Here's a basic example of how to use the SDK to fetch observations:
 
-
 ### Authentication
-To authenticate with Azure, you need to provide your client_id, client_secret, and tenant_id. The SDK will use these credentials to obtain a JWT token.  
+To authenticate with Azure, you need to provide your client_id, client_secret, and tenant_id. The SDK will use these credentials to obtain a JWT token.
+
 ### Fetching Observations
 Once authenticated, you can use the SDK to fetch observations from your API.
 
